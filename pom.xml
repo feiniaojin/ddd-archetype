@@ -13,10 +13,13 @@
         <module>ddd-archetype-application</module>
         <module>ddd-archetype-infrastructure-persistence</module>
         <module>ddd-archetype-infrastructure-publisher</module>
-        <module>ddd-archetype-infrastructure-cache</module>
-        <module>ddd-archetype-infrastructure-consumer</module>
-        <module>ddd-archetype-interfaces-web</module>
+        <module>ddd-archetype-infrastructure-gateway</module>
+        <module>ddd-archetype-ui-web</module>
         <module>ddd-archetype-launcher</module>
+        <module>ddd-archetype-ui-worker</module>
+        <module>ddd-archetype-ui-provider</module>
+        <module>ddd-archetype-ui-listener</module>
+        <module>ddd-archetype-infrastructure-cache</module>
     </modules>
 
     <properties>
@@ -26,6 +29,26 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.feiniaojin.ddd</groupId>
+                <artifactId>ddd-archetype-ui-worker</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.feiniaojin.ddd</groupId>
+                <artifactId>ddd-archetype-ui-listener</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.feiniaojin.ddd</groupId>
+                <artifactId>ddd-archetype-ui-provider</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.feiniaojin.ddd</groupId>
+                <artifactId>ddd-archetype-infrastructure-cache</artifactId>
+                <version>${project.version}</version>
+            </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
                 <artifactId>ddd-archetype-domain</artifactId>
@@ -48,7 +71,7 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-infrastructure-consumer</artifactId>
+                <artifactId>ddd-archetype-infrastructure-gateway</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -58,7 +81,7 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-interfaces-web</artifactId>
+                <artifactId>ddd-archetype-ui-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

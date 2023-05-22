@@ -19,7 +19,19 @@
     <dependencies>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-interfaces-web</artifactId>
+            <artifactId>ddd-archetype-ui-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-ui-provider</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-ui-listener</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-ui-worker</artifactId>
         </dependency>
     </dependencies>
 </project>

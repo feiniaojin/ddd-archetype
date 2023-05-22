@@ -9,10 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ddd-archetype-domain</artifactId>
+    <artifactId>ddd-archetype-ui-web</artifactId>
 
-    <description>领域模型层，用于放置领域模型，包括实体、值对象、Repository、Factory等的定义</description>
-    
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -20,13 +18,8 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.feiniaojin</groupId>
-            <artifactId>ddd</artifactId>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-application</artifactId>
         </dependency>
     </dependencies>
-
 </project>

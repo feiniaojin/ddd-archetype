@@ -11,6 +11,8 @@
 
     <artifactId>ddd-archetype-application</artifactId>
 
+    <description>应用服务层，依赖domain和infrastructure，不包含业务逻辑，协调领域模型完成业务逻辑，并使用基础设置为业务提供支持</description>
+    
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
@@ -20,6 +22,22 @@
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
             <artifactId>ddd-archetype-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-infrastructure-gateway</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-infrastructure-cache</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-infrastructure-persistence</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.feiniaojin.ddd</groupId>
+            <artifactId>ddd-archetype-infrastructure-publisher</artifactId>
         </dependency>
     </dependencies>
 
