@@ -106,4 +106,4 @@ archetype:crawl
 [![p9olstx.png](https://s1.ax1x.com/2023/05/22/p9olstx.png)](https://imgse.com/i/p9olstx)
 
 - 项目创建完成后：
-[![p9olyh6.png](https://s1.ax1x.com/2023/05/22/p9olyh6.png)](https://imgse.com/i/p9olyh6)
+  [![p9TtUh9.png](https://s1.ax1x.com/2023/05/23/p9TtUh9.png)](https://imgse.com/i/p9TtUh9)

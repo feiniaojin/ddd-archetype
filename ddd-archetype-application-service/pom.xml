@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ddd-archetype-application</artifactId>
+    <artifactId>ddd-archetype-application-service</artifactId>
 
     <description>应用服务层，依赖domain和infrastructure，不包含业务逻辑，协调领域模型完成业务逻辑，并使用基础设置为业务提供支持</description>
     

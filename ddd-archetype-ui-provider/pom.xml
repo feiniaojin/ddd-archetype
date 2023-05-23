@@ -19,7 +19,7 @@
     <dependencies>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-application</artifactId>
+            <artifactId>ddd-archetype-application-service</artifactId>
         </dependency>
     </dependencies>
 </project>

@@ -10,7 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>ddd-archetype-domain</module>
-        <module>ddd-archetype-application</module>
+        <module>ddd-archetype-application-service</module>
         <module>ddd-archetype-infrastructure-persistence</module>
         <module>ddd-archetype-infrastructure-publisher</module>
         <module>ddd-archetype-infrastructure-gateway</module>
@@ -76,7 +76,7 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-application</artifactId>
+                <artifactId>ddd-archetype-application-service</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
