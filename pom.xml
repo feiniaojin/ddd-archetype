@@ -18,7 +18,7 @@
         <module>ddd-archetype-launcher</module>
         <module>ddd-archetype-ui-worker</module>
         <module>ddd-archetype-ui-provider</module>
-        <module>ddd-archetype-ui-listener</module>
+        <module>ddd-archetype-ui-subscriber</module>
         <module>ddd-archetype-infrastructure-cache</module>
     </modules>
 
@@ -36,7 +36,7 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-ui-listener</artifactId>
+                <artifactId>ddd-archetype-ui-subscriber</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>

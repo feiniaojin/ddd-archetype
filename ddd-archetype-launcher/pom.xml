@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-ui-listener</artifactId>
+            <artifactId>ddd-archetype-ui-subscriber</artifactId>
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
