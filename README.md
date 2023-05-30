@@ -2,6 +2,8 @@
 
 # 注：本文最后附DDD免费学习资料
 
+**各位朋友clone和fork之前，麻烦顺手帮忙star一下！**
+
 # 1. ddd-archetype介绍
 
 我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
