@@ -9,7 +9,7 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ddd-archetype-ui-worker</artifactId>
+    <artifactId>ddd-archetype-user-interface-subscriber</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

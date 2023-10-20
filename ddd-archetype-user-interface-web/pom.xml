@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ddd-archetype-ui-web</artifactId>
+    <artifactId>ddd-archetype-user-interface-web</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

@@ -25,19 +25,19 @@
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-ui-web</artifactId>
+            <artifactId>ddd-archetype-user-interface-web</artifactId>
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-ui-provider</artifactId>
+            <artifactId>ddd-archetype-user-interface-provider</artifactId>
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-ui-subscriber</artifactId>
+            <artifactId>ddd-archetype-user-interface-subscriber</artifactId>
         </dependency>
         <dependency>
             <groupId>com.feiniaojin.ddd</groupId>
-            <artifactId>ddd-archetype-ui-worker</artifactId>
+            <artifactId>ddd-archetype-user-interface-worker</artifactId>
         </dependency>
     </dependencies>
 

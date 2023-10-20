@@ -19,10 +19,10 @@
         <module>ddd-archetype-infrastructure-publisher</module>
         <module>ddd-archetype-infrastructure-gateway</module>
         <module>ddd-archetype-infrastructure-cache</module>
-        <module>ddd-archetype-ui-web</module>
-        <module>ddd-archetype-ui-worker</module>
-        <module>ddd-archetype-ui-provider</module>
-        <module>ddd-archetype-ui-subscriber</module>
+        <module>ddd-archetype-user-interface-web</module>
+        <module>ddd-archetype-user-interface-worker</module>
+        <module>ddd-archetype-user-interface-provider</module>
+        <module>ddd-archetype-user-interface-subscriber</module>
         <module>ddd-archetype-launcher</module>
     </modules>
 
@@ -37,7 +37,7 @@
             <dependency>
                 <groupId>com.feiniaojin</groupId>
                 <artifactId>graceful-response</artifactId>
-                <version>3.1.0</version>
+                <version>3.2.0-boot2</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -61,17 +61,17 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-ui-worker</artifactId>
+                <artifactId>ddd-archetype-user-interface-worker</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-ui-subscriber</artifactId>
+                <artifactId>ddd-archetype-user-interface-subscriber</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-ui-provider</artifactId>
+                <artifactId>ddd-archetype-user-interface-provider</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
@@ -106,7 +106,7 @@
             </dependency>
             <dependency>
                 <groupId>com.feiniaojin.ddd</groupId>
-                <artifactId>ddd-archetype-ui-web</artifactId>
+                <artifactId>ddd-archetype-user-interface-web</artifactId>
                 <version>${project.version}</version>
             </dependency>
             <dependency>
