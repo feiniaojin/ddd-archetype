@@ -8,7 +8,7 @@
 
 我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
 
-[![p9TtTHS.png](https://s1.ax1x.com/2023/05/23/p9TtTHS.png)](https://imgse.com/i/p9TtTHS)
+[![架构图](https://pic.imgdb.cn/item/6555d56bc458853aef6c1e00.png)](https://pic.imgdb.cn/item/6555d56bc458853aef6c1e00.png)
 
 如果每个项目都手工创建一次，是比较繁琐的工作，也不利项目结构的统一。Maven
 Archetype是一个Maven插件，它允许开发人员通过指定一组参数来创建项目的基础结构，可以帮助开发人员快速创建项目的基础结构，大大减少开发人员在创建项目时所需的时间和精力，并且可以确保项目结构的一致性和可重用性，从而提高代码质量和可维护性。
@@ -123,3 +123,7 @@ archetype:crawl
 项目地址：https://github.com/feiniaojin/Thinking-in-DDD 
 
 在线阅读：http://ddd.feiniaojin.com/
+
+# DDD学习交流群
+欢迎加入DDD交流群。微信扫以下二维码添加作者微信，标注“DDD”，好友申请通过后拉您进群。
+<div><img src="https://z1.ax1x.com/2023/11/08/pi1rmB6.jpg" width="50%" height="50%" alt="pi1rmB6.jpg" border="0"/></div>
