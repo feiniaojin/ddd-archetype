@@ -163,6 +163,11 @@
                 <artifactId>spring-kafka-test</artifactId>
                 <scope>test</scope>
             </dependency>
+            <dependency>
+                <groupId>com.feiniaojin</groupId>
+                <artifactId>ddd</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 </project>
