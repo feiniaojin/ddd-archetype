@@ -8,7 +8,7 @@
 
 我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
 
-[![架构图](https://pic.imgdb.cn/item/6555d56bc458853aef6c1e00.png)](https://pic.imgdb.cn/item/6555d56bc458853aef6c1e00.png)
+[![架构图](https://gingoimg.oss-cn-beijing.aliyuncs.com/ddd/ddd-%E6%9E%B6%E6%9E%84.png)](https://gingoimg.oss-cn-beijing.aliyuncs.com/ddd/ddd-%E6%9E%B6%E6%9E%84.png)
 
 如果每个项目都手工创建一次，是比较繁琐的工作，也不利项目结构的统一。Maven
 Archetype是一个Maven插件，它允许开发人员通过指定一组参数来创建项目的基础结构，可以帮助开发人员快速创建项目的基础结构，大大减少开发人员在创建项目时所需的时间和精力，并且可以确保项目结构的一致性和可重用性，从而提高代码质量和可维护性。
@@ -114,9 +114,9 @@ archetype:crawl
   
 # DDD学习免费电子书
 
-作者将多年领域驱动设计的经验，撰写成《悟道DDD（Thinking in DDD）》这一电子书，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
+作者将多年领域驱动设计的经验，撰写成《悟道领域驱动设计（Thinking in Domain Driven Design）》一书，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
 
-本电子书永久免费阅读，欢迎沟通交流。
+欢迎读者沟通交流。
 
 ![](https://s1.ax1x.com/2023/06/27/pCa5cm6.png)
 
@@ -125,5 +125,7 @@ archetype:crawl
 在线阅读：http://ddd.feiniaojin.com/
 
 # DDD学习交流群
+
 欢迎加入DDD交流群。微信扫以下二维码添加作者微信，标注“DDD”，好友申请通过后拉您进群。
-<div><img src="https://z1.ax1x.com/2023/11/08/pi1rmB6.jpg" width="50%" height="50%" alt="pi1rmB6.jpg" border="0"/></div>
+
+<div><img src="https://gingoimg.oss-cn-beijing.aliyuncs.com/ddd/qr.jpg" width="50%" height="50%" alt="pi1rmB6.jpg" border="0"/></div>
