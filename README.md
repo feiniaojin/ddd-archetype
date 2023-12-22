@@ -1,12 +1,16 @@
 <div align=center><img src="https://s1.ax1x.com/2023/05/22/p9o1OG6.png"/></div>
 
-# 注：本文最后附DDD免费学习资料
-
-**各位朋友clone和fork之前，麻烦顺手帮忙star一下！**
-
 # 1. ddd-archetype介绍
 
-我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
+本项目是作者《悟道领域驱动设计》书中采用的应用架构的脚手架。《悟道领域驱动设计（Thinking in Domain Driven Design）》一书是作者多年实战领域驱动设计的总结，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
+
+![](https://s1.ax1x.com/2023/06/27/pCa5cm6.png)
+
+项目地址：https://github.com/feiniaojin/Thinking-in-DDD 
+
+在线阅读：http://ddd.feiniaojin.com/
+
+关于该应用架构，详细见[第2章 应用架构](https://ddd.feiniaojin.com/2.html)。我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
 
 [![架构图](https://gingoimg.oss-cn-beijing.aliyuncs.com/ddd/ddd-%E6%9E%B6%E6%9E%84.png)](https://gingoimg.oss-cn-beijing.aliyuncs.com/ddd/ddd-%E6%9E%B6%E6%9E%84.png)
 
@@ -112,19 +116,11 @@ archetype:crawl
 - 项目创建完成后：
   [![p9TtUh9.png](https://s1.ax1x.com/2023/05/23/p9TtUh9.png)](https://imgse.com/i/p9TtUh9)
   
-# DDD学习免费电子书
+# 3. 成功案例
 
-作者将多年领域驱动设计的经验，撰写成《悟道领域驱动设计（Thinking in Domain Driven Design）》一书，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
+作者已使用该脚手架完成许多项目的开发，其中开源出来的案例见[随书示例代码](https://ddd.feiniaojin.com/samples.html)。
 
-欢迎读者沟通交流。
-
-![](https://s1.ax1x.com/2023/06/27/pCa5cm6.png)
-
-项目地址：https://github.com/feiniaojin/Thinking-in-DDD 
-
-在线阅读：http://ddd.feiniaojin.com/
-
-# DDD学习交流群
+# 4. DDD学习交流群
 
 欢迎加入DDD交流群。微信扫以下二维码添加作者微信，标注“DDD”，好友申请通过后拉您进群。
 
