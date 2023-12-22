@@ -37,7 +37,7 @@
             <dependency>
                 <groupId>com.feiniaojin</groupId>
                 <artifactId>graceful-response</artifactId>
-                <version>3.2.0-boot2</version>
+                <version>3.4.0-boot2</version>
             </dependency>
             <dependency>
                 <groupId>com.fasterxml.jackson.core</groupId>
@@ -126,17 +126,6 @@
                 <groupId>org.springframework.kafka</groupId>
                 <artifactId>spring-kafka</artifactId>
             </dependency>
-
-
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-data-jdbc</artifactId>
-            </dependency>
-            <dependency>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-starter-web</artifactId>
-            </dependency>
-
             <dependency>
                 <groupId>com.h2database</groupId>
                 <artifactId>h2</artifactId>
@@ -148,12 +137,6 @@
                 <scope>runtime</scope>
             </dependency>
             <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>1.18.12</version>
-                <optional>true</optional>
-            </dependency>
-            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter-test</artifactId>
                 <scope>test</scope>
@@ -163,6 +146,11 @@
                 <artifactId>spring-kafka-test</artifactId>
                 <scope>test</scope>
             </dependency>
+            <!--  ddd包目前还没有正式发布，请将ddd的源码clone到本地，导入之后进行install，仓库地址如下：
+                  https://github.com/feiniaojin/ddd.git
+                  如果不需要ddd的话，可以直接删掉，并且到domain包中删掉
+                  这个只是作者使用的ddd包，未必适合所有人
+            -->
             <dependency>
                 <groupId>com.feiniaojin</groupId>
                 <artifactId>ddd</artifactId>
