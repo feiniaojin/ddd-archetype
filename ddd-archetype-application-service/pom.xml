@@ -5,17 +5,15 @@
     <parent>
         <artifactId>ddd-archetype</artifactId>
         <groupId>com.feiniaojin.ddd</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>ddd-archetype-application-service</artifactId>
 
     <description>应用服务层，依赖domain和infrastructure，不包含业务逻辑，协调领域模型完成业务逻辑，并使用基础设置为业务提供支持</description>
-    
+
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
     <dependencies>
