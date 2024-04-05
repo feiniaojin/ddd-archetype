@@ -4,7 +4,7 @@
 
 本项目是作者《悟道领域驱动设计》书中采用的应用架构的脚手架。《悟道领域驱动设计（Thinking in Domain Driven Design）》一书是作者多年实战领域驱动设计的总结，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
 
-![](https://s1.ax1x.com/2023/06/27/pCa5cm6.png)
+![](https://s21.ax1x.com/2024/04/05/pFbflDg.png)
 
 项目地址：https://github.com/feiniaojin/Thinking-in-DDD 
 
