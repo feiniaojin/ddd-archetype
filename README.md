@@ -2,13 +2,11 @@
 
 # 1. ddd-archetype介绍
 
-本项目是作者《悟道领域驱动设计》书中采用的应用架构的脚手架。《悟道领域驱动设计（Thinking in Domain Driven Design）》一书是作者多年实战领域驱动设计的总结，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友。
+本项目是作者《悟道领域驱动设计》书中采用的应用架构的脚手架。《悟道领域驱动设计》一书是作者多年实战领域驱动设计的总结，力求用最平实、最通俗、最容易理解的方式将DDD分享给各位朋友，目前该书已上架各大电商平台，感兴趣的朋友可以帮忙支持一下。
 
-![](https://s21.ax1x.com/2024/04/05/pFbflDg.png)
+<img alt="悟道领域驱动设计" src="assets/book.png" style="width: 50%">
 
-项目地址：https://github.com/feiniaojin/Thinking-in-DDD 
-
-在线阅读：http://ddd.feiniaojin.com/
+购买链接：https://item.jd.com/14835288.html
 
 关于该应用架构，详细见[第2章 应用架构](https://ddd.feiniaojin.com/2.html)。我们在落地DDD应用架构时，通常将项目分为多个Maven Module，如下图。
 
